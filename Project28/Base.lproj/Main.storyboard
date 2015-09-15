@@ -16,7 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSg-do-ygH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muk-MN-hpZ">
+                                <rect key="frame" x="250" y="278" width="100" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="5ch-Tf-O2R"/>
+                                    <constraint firstAttribute="width" constant="100" id="Uz4-g0-DUG"/>
+                                </constraints>
+                                <state key="normal" title="Authenticate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="authenticateUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xa1-Cx-NkW"/>
+                                </connections>
+                            </button>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSg-do-ygH">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -25,6 +38,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="MSg-do-ygH" firstAttribute="centerX" secondItem="muk-MN-hpZ" secondAttribute="centerX" id="81F-md-qLP"/>
+                            <constraint firstItem="MSg-do-ygH" firstAttribute="centerY" secondItem="muk-MN-hpZ" secondAttribute="centerY" id="BbX-ms-s75"/>
                             <constraint firstItem="MSg-do-ygH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CYR-47-b0c"/>
                             <constraint firstItem="MSg-do-ygH" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="ONk-pm-Lnn"/>
                             <constraint firstItem="MSg-do-ygH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XpY-jI-cnG"/>
