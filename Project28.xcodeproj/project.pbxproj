@@ -13,6 +13,7 @@
 		CAB023271BA7F33400760761 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB023261BA7F33400760761 /* Images.xcassets */; };
 		CAB0232A1BA7F33400760761 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB023281BA7F33400760761 /* LaunchScreen.xib */; };
 		CAB023361BA7F33400760761 /* Project28Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB023351BA7F33400760761 /* Project28Tests.swift */; };
+		CAB023401BA7FFA600760761 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0233F1BA7FFA600760761 /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CAB0232F1BA7F33400760761 /* Project28Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project28Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB023341BA7F33400760761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB023351BA7F33400760761 /* Project28Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project28Tests.swift; sourceTree = "<group>"; };
+		CAB0233F1BA7FFA600760761 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CAB0231F1BA7F33400760761 /* AppDelegate.swift */,
+				CAB0233F1BA7FFA600760761 /* KeychainWrapper.swift */,
 				CAB023211BA7F33400760761 /* ViewController.swift */,
 				CAB023231BA7F33400760761 /* Main.storyboard */,
 				CAB023261BA7F33400760761 /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB023401BA7FFA600760761 /* KeychainWrapper.swift in Sources */,
 				CAB023221BA7F33400760761 /* ViewController.swift in Sources */,
 				CAB023201BA7F33400760761 /* AppDelegate.swift in Sources */,
 			);
